@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Efficient Computing Research Lab</title>
+<meta name="description" content="Efficient Computing Research Lab at Moreh Vietnam, Hanoi. Research on LLM serving, low-precision computing, and fast, correct GPU kernels.">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Moreh Vietnam, Efficient Computing Research Lab, home">
+      <span class="brand-logo" aria-hidden="true"><img class="logo-light" src="assets/moreh-logo.png" alt="" width="87" height="22"><img class="logo-dark" src="assets/moreh-logo-white.png" alt="" width="87" height="22"></span>
+      <span class="brand-name">Efficient Computing Research Lab<small>Moreh Vietnam</small></span>
+    </a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#research">Research</a>
+      <a href="#people">People</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#news">News</a>
+      <a href="#join">Join</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <section class="hero" aria-labelledby="lab-name">
+    <div>
+      <p class="eyebrow">Moreh Vietnam · Hanoi · since 2023</p>
+      <h1 id="lab-name">Efficient Computing Research Lab</h1>
+      <p class="lead">We study how to make AI computing faster and cheaper, with a focus on improving open-source inference engines such as upstream vLLM and SGLang. Our work covers LLM serving, low-precision computing, and GPU kernels that are both fast and correct.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="#publications">Publications</a>
+        <a class="btn btn-ghost" href="#join">Join the lab</a>
+      </div>
+    </div>
+
+    <figure class="figure stack-figure" aria-labelledby="stack-title">
+      <div class="figure-head">
+        <h2 id="stack-title">Where we work</h2>
+      </div>
+      <svg class="stack" viewBox="0 0 480 400" role="img" aria-labelledby="stack-svg-title stack-svg-desc">
+        <title id="stack-svg-title">Where the lab works</title>
+        <desc id="stack-svg-desc">A stack of layers. Open-source large language models such as Qwen, DeepSeek, GLM and Kimi sit on top. Below them are the lab's three research areas as layers: LLM serving, low-precision computing, and fast and correct GPU kernels. NVIDIA and AMD GPUs form the base.</desc>
+        <g class="stk-pins"><line x1="40" y1="344" x2="40" y2="350"/><line x1="60" y1="352" x2="60" y2="358"/><line x1="80" y1="360" x2="80" y2="366"/><line x1="100" y1="368" x2="100" y2="374"/><line x1="140" y1="368" x2="140" y2="374"/><line x1="160" y1="360" x2="160" y2="366"/><line x1="180" y1="352" x2="180" y2="358"/><line x1="200" y1="344" x2="200" y2="350"/></g>
+        <g class="stk-edge-g"><path class="stk-lg" d="M20,322 L120,362 L120,376 L20,336 Z"/><path class="stk-rg" d="M120,362 L220,322 L220,336 L120,376 Z"/><path class="stk-tg" d="M120,282 L220,322 L120,362 L20,322 Z"/></g>
+        <g class="stk-edge"><path class="stk-l3" d="M20,258 L120,298 L120,312 L20,272 Z"/><path class="stk-r3" d="M120,298 L220,258 L220,272 L120,312 Z"/><path class="stk-t3" d="M120,218 L220,258 L120,298 L20,258 Z"/></g>
+        <g class="stk-edge"><path class="stk-l2" d="M20,194 L120,234 L120,248 L20,208 Z"/><path class="stk-r2" d="M120,234 L220,194 L220,208 L120,248 Z"/><path class="stk-t2" d="M120,154 L220,194 L120,234 L20,194 Z"/></g>
+        <g class="stk-edge"><path class="stk-l1" d="M20,130 L120,170 L120,184 L20,144 Z"/><path class="stk-r1" d="M120,170 L220,130 L220,144 L120,184 Z"/><path class="stk-t1" d="M120,90 L220,130 L120,170 L20,130 Z"/></g>
+        <g class="stk-models"><rect x="16" y="30" width="44" height="20" rx="10"/><text x="38" y="44.5" text-anchor="middle">Qwen</text><rect x="66" y="30" width="66" height="20" rx="10"/><text x="99" y="44.5" text-anchor="middle">DeepSeek</text><rect x="138" y="30" width="40" height="20" rx="10"/><text x="158" y="44.5" text-anchor="middle">GLM</text><rect x="184" y="30" width="40" height="20" rx="10"/><text x="204" y="44.5" text-anchor="middle">Kimi</text></g>
+        <g class="stk-arrow"><line x1="120" y1="52" x2="120" y2="104"/><path d="M114,97 L120,105 L126,97"/></g>
+        <line class="stk-lead" x1="228" y1="40" x2="244" y2="40"/>
+        <circle class="stk-dot" cx="220" cy="130" r="2.6"/><line class="stk-lead" x1="226" y1="130" x2="244" y2="130"/><circle class="stk-dot" cx="220" cy="194" r="2.6"/><line class="stk-lead" x1="226" y1="194" x2="244" y2="194"/><circle class="stk-dot" cx="220" cy="258" r="2.6"/><line class="stk-lead" x1="226" y1="258" x2="244" y2="258"/><circle class="stk-dot-g" cx="220" cy="322" r="2.6"/><line class="stk-lead" x1="226" y1="322" x2="244" y2="322"/>
+        <text class="stk-ctx" x="252" y="46">Open-source LLMs</text>
+        <text class="stk-area" x="252" y="136">LLM serving</text>
+        <text class="stk-area" x="252" y="189">Low-precision<tspan x="252" dy="22">computing</tspan></text>
+        <text class="stk-area" x="252" y="253">Fast and correct<tspan x="252" dy="22">GPU kernels</tspan></text>
+        <text class="stk-ctx" x="252" y="317">NVIDIA and<tspan x="252" dy="22">AMD GPUs</tspan></text>
+      </svg>
+    </figure>
+  </section>
+
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="section-head">
+      <p class="eyebrow">About</p>
+      <h2 id="about-title">A research lab at Moreh Vietnam</h2>
+    </div>
+    <div class="prose">
+      <p>The Efficient Computing Research Lab is a research group at Moreh Vietnam in Hanoi. Since 2023 it has studied how to run AI workloads in less time and memory on GPUs and other accelerators.</p>
+      <p>We pick open problems that show up when large models meet real hardware, measure them carefully on NVIDIA and AMD GPUs, and publish what we learn. We work with researchers at Seoul National University and VNU University of Engineering and Technology.</p>
+    </div>
+  </section>
+
+  <section class="section" id="research" aria-labelledby="research-title">
+    <div class="section-head">
+      <p class="eyebrow">Research</p>
+      <h2 id="research-title">Three problem areas</h2>
+      <p>Each area pairs a systems question with measurements on real GPUs.</p>
+    </div>
+    <div>
+      <div class="areas">
+        <article class="area">
+          <h3>LLM serving</h3>
+          <p>How to serve large models to many users with less memory and shorter waits. We study how serving engines schedule requests, where the KV cache and the experts of mixture-of-experts models live in memory, and how work is split across GPUs. New ideas are tested in open-source engines such as vLLM and SGLang.</p>
+          <ul class="tags"><li>KV cache</li><li>MoE</li><li>prefill / decode</li><li>TP · DP · EP</li></ul>
+        </article>
+        <article class="area">
+          <h3>Low-precision computing</h3>
+          <p>Running models with fp8 and fp4 weights and KV cache while keeping their answers accurate. We look at where a model can drop to lower precision and where it has to stay higher, and at kernels that switch precision when memory or latency is tight.</p>
+          <ul class="tags"><li>fp8</li><li>fp4</li><li>quantization</li><li>mixed precision</li></ul>
+        </article>
+        <article class="area">
+          <h3>Fast and correct GPU kernels</h3>
+          <p>A new kernel, whether written by hand, by a compiler or by an AI model, is only useful if it is both faster and right. We build latency predictors that let autotuning and kernel search need fewer test runs, and error checks that catch kernels whose results are slightly wrong, on NVIDIA and AMD GPUs.</p>
+          <ul class="tags"><li>Triton</li><li>autotuning</li><li>latency prediction</li><li>error detection</li></ul>
+        </article>
+      </div>
+      <p class="hw"><b>Hardware we use:</b> NVIDIA V100, A100 and H100; AMD Instinct MI250.</p>
+    </div>
+  </section>
+
+  <section class="section" id="people" aria-labelledby="people-title">
+    <div class="section-head">
+      <p class="eyebrow">People</p>
+      <h2 id="people-title">Lab leads</h2>
+    </div>
+    <div>
+      <div class="people">
+        <article class="person">
+          <div class="avatar" aria-hidden="true">TD</div>
+          <div>
+            <h3>Dr. Thanh-Tuan Dao</h3>
+            <p class="role">Head of the lab · Head of Moreh Vietnam</p>
+            <p class="aff">Ph.D. and M.S. in Computer Science and Engineering, Seoul National University. B.S. in Computer Science, VNU University of Engineering and Technology.</p>
+            <p class="focus">His research focuses on GPU optimization and efficient systems for large language model training and inference, including kernel tuning, low-precision computing and model serving. He is also committed to education, bringing emerging topics in parallel and AI computing into university courses and hands-on workshops, and to building a high-performance computing community in Vietnam.</p>
+          </div>
+        </article>
+        <article class="person">
+          <div class="avatar" aria-hidden="true">XN</div>
+          <div>
+            <h3>Dr. Xuan Truong Nguyen</h3>
+            <p class="role">Researcher</p>
+            <p class="aff">Seoul National University (COSS) · Van Lang Institute of Semiconductor Technology</p>
+            <p class="focus">Works on GPU kernel validation, autotuning and quantization.</p>
+          </div>
+        </article>
+      </div>
+      <p class="people-note">We are looking for researchers and interns. See <a href="#join">Join the lab</a>.</p>
+    </div>
+  </section>
+
+  <section class="section" id="publications" aria-labelledby="pubs-title">
+    <div class="section-head">
+      <p class="eyebrow">Publications</p>
+      <h2 id="pubs-title">Papers</h2>
+      <p>Authors from the lab are shown in bold.</p>
+    </div>
+    <div>
+      <div class="pub-controls">
+        <div class="chips" id="pub-chips" role="group" aria-label="Filter by type"></div>
+        <div class="search">
+          <label class="visually-hidden" for="pub-search">Search publications</label>
+          <input id="pub-search" type="search" placeholder="Search title, author, venue" autocomplete="off">
+        </div>
+      </div>
+      <p class="pub-meta" id="pub-count" aria-live="polite"></p>
+      <div id="pub-root"></div>
+      <noscript><p class="pub-empty">Turn on JavaScript to see the publication list.</p></noscript>
+      <p class="pub-empty" id="pub-empty" hidden>No publications match. Clear the search or pick another type.</p>
+      <p class="pub-note">DeepCuts is Dr. Dao's doctoral work at Seoul National University with Prof. Jaejin Lee.</p>
+    </div>
+  </section>
+
+  <section class="section" id="teaching" aria-labelledby="teaching-title">
+    <div class="section-head">
+      <p class="eyebrow">Teaching</p>
+      <h2 id="teaching-title">Courses</h2>
+    </div>
+    <div>
+      <article class="course">
+        <h3>Parallel Computing</h3>
+        <p class="where">VNU University of Engineering and Technology · 2026</p>
+        <dl>
+          <dt>Lecturer</dt><dd>Dr. Thanh-Tuan Dao</dd>
+          <dt>Teaching assistant</dt><dd>Tuan-Duc Chu</dd>
+          <dt>Topics</dt><dd>Parallel computing and HPC basics, GPU architecture, GPU programming with CUDA, OpenCL and HIP, and performance problems in AI and HPC code</dd>
+          <dt>Hands-on labs</dt><dd>NVIDIA V100 and A100, AMD MI250</dd>
+        </dl>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="news" aria-labelledby="news-title">
+    <div class="section-head">
+      <p class="eyebrow">News</p>
+      <h2 id="news-title">Recent news</h2>
+    </div>
+    <ul class="news">
+      <li><time datetime="2026-09">Sep 2026</time><span>PEAT, our framework for validating GPU kernels in DNN training, is on arXiv.</span></li>
+      <li><time datetime="2026-04">Apr 2026</time><span>TTX appears at ISPASS 2026 in Seoul.</span></li>
+      <li><time datetime="2026-02">Feb 2026</time><span>Dr. Dao begins the spring 2026 run of Parallel Computing at VNU University of Engineering and Technology.</span></li>
+      <li><time datetime="2025-11">Nov 2025</time><span>Two papers at RIVF 2025, on latency prediction for Triton kernels and on concurrency and parallelism in vLLM.</span></li>
+      <li><time datetime="2025-10">Oct 2025</time><span>UDP, on mixed-precision quantization for LLMs, is accepted to IEEE Access.</span></li>
+      <li><time datetime="2024-10">Oct 2024</time><span>LLMPerf appears at MASCOTS 2024 in Kraków.</span></li>
+      <li><time datetime="2023-03">Mar 2023</time><span>The lab is founded.</span></li>
+    </ul>
+  </section>
+
+  <section class="section" id="join" aria-labelledby="join-title">
+    <div class="section-head">
+      <p class="eyebrow">Join</p>
+      <h2 id="join-title">Researchers and interns</h2>
+    </div>
+    <div>
+      <div class="prose">
+        <p>We take researchers and interns who want to work on GPU systems for AI.</p>
+        <p>Good candidates write solid C++ and Python, are comfortable with Linux and Git, and like measuring things carefully. Send your CV and transcript by email.</p>
+      </div>
+      <div class="contact-card" aria-label="Contact">
+        <address>
+          <strong>Efficient Computing Research Lab</strong><br>
+          Moreh Vietnam<br>
+          Hanoi, Vietnam
+        </address>
+        <div>
+          <p class="eyebrow email-label">Email Dr. Dao</p>
+          <div class="email-row">
+            <span class="email" id="lab-email">tuan.dao@moreh.io</span>
+            <button class="copy-btn" type="button" id="copy-email" data-copy="tuan.dao@moreh.io" data-target="lab-email">Copy</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer wrap">
+  <span>© 2026 Efficient Computing Research Lab, Moreh Vietnam</span>
+</footer>
+
+<script src="assets/publications.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
