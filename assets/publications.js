@@ -1,18 +1,18 @@
 /*
-  Publications for the Efficient Computing Research Lab website.
+Publications for the Efficient Computing Research Lab website.
 
-  To add a paper: copy one block, fill it in, save, and refresh the browser.
-  The page groups entries by year (newest first) and builds the type filters itself.
+To add a paper: copy one block, fill it in, save, and refresh the browser.
+The page groups entries by year (newest first) and builds the type filters itself.
 
-  year     number, e.g. 2026
-  type     "conference" | "journal" | "workshop" | "preprint" | "patent" | "thesis"
-  venue    short badge text, e.g. "ISPASS 2026"
-  title    paper title
-  authors  list of names in paper order; names in LAB_MEMBERS are shown in bold
+year number, e.g. 2026
+type "conference" | "journal" | "workshop" | "preprint" | "patent" | "thesis"
+venue short badge text, e.g. "ISPASS 2026"
+title paper title
+authors list of names in paper order; names in LAB_MEMBERS are shown in bold
 
-  LAB_MEMBERS lists everyone who was in the lab when a paper was written, including past members.
-  where    full venue line
-  links    list of [label, url] pairs; use [] when there is no link
+LAB_MEMBERS lists everyone who was in the lab when a paper was written, including past members.
+where full venue line
+links list of [label, url] pairs; use [] when there is no link
 */
 
 window.LAB_MEMBERS = [
@@ -23,7 +23,7 @@ window.LAB_MEMBERS = [
   "V. S. Pham",
   "T. S. Pham",
   "A. T. Mai"
-];
+  ];
 
 window.LAB_PUBLICATIONS = [
   {
@@ -48,6 +48,13 @@ window.LAB_PUBLICATIONS = [
     links: [["arXiv", "https://arxiv.org/abs/2609.13544"]]
   },
   {
+    year: 2026, type: "preprint", venue: "arXiv 2026",
+    title: "DPS: Dual-Mode Precision LLM Serving with Semi-Unified Memory",
+    authors: ["X. T. Nguyen", "T. S. Pham", "T. D. Chu", "W. Jung", "T. T. Dao"],
+    where: "arXiv preprint arXiv:2609.34380, 2026",
+    links: [["arXiv", "https://arxiv.org/abs/2609.34380"]]
+  },
+  {
     year: 2025, type: "conference", venue: "RIVF 2025",
     title: "Accurate Latency Predictor for Triton-Based GPU Kernels with PTX Features and XGBoost",
     authors: ["H. Q. Tran", "V. S. Pham", "T. S. Pham", "T. D. Chu", "A. T. Mai", "X. T. Nguyen", "T. T. Dao"],
@@ -70,7 +77,7 @@ window.LAB_PUBLICATIONS = [
       ["IEEE Xplore", "https://ieeexplore.ieee.org/document/10786558"],
       ["arXiv", "https://arxiv.org/abs/2503.11244"],
       ["Code", "https://github.com/Fsoft-AIC/LLM-Perfomance-Modeling"]
-    ]
+      ]
   },
   {
     year: 2021, type: "conference", venue: "PLDI 2021",
@@ -79,4 +86,4 @@ window.LAB_PUBLICATIONS = [
     where: "Proceedings of the 42nd ACM SIGPLAN International Conference on Programming Language Design and Implementation (PLDI), 2021",
     links: [["ACM DL", "https://doi.org/10.1145/3453483.3454038"]]
   }
-];
+  ];
